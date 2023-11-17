@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+        <!-- <script>
+            var x=parseInt(prompt("Enter the x value is::"))//200
+            var y=parseInt(prompt("Enter the y value is::"))//100
+            document.write("LogicalAND::"+((x>y)&&(y<x)))//True
+            document.write("<br><br>")
+            document.write("LogicalOR::"+((x>y)||(y>x)))//True
+            document.write("<br><br>")
+            document.write("LogicalNOT::"+!(x>y))//False
+        </script> -->
+        <body>
+            LogicalAND::<h4 id="d1"></h4>
+            <table border="1">
+            
+                    <th>LogicalAND</th>
+              
+                 
+                 <tr>
+                    <span id="d1"></span>
+                 </tr>
+            </table>
+
+        </body>
+       
+        <script>
+             var x=parseInt(prompt("Enter the x value is::"))//200
+            var y=parseInt(prompt("Enter the y value is::"))//100
+            document.getElementById("d1").innerHTML=((x>y)&&(y<x))
+        </script>
+    
+</html>
