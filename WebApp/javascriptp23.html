@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form>
+            <label>UserName</label>
+            <input type="text" pattern="[A-Za-z]{3}" required/>
+            <label>Password</label>
+            <input type="text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required/>
+            <label>Email</label>
+            <input type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"/>
+            <label>URL</label>
+            <input type="url" pattern="https?://.+"/>
+            <input type="submit" value="Login"/>
+        </form>
+    </body>
+</html>
