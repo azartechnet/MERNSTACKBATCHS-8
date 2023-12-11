@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <button onclick="openWin()">OpenWindow</button>
+        <button onClick="resizeWin()">ResizeWin</button>
+        <script>
+            let mywindow;
+            function openWin()
+            {
+                mywindow=window.open("","","width=200","height=100");
+            }
+            function resizeWin()
+            {
+                mywindow.resizeTo(300,300)
+            }
+        </script>
+    </body>
+</html>
