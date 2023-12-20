@@ -1,0 +1,37 @@
+<!-- <script>
+    let map1=new Map([
+        [1,10],[2,20],[3,50],[4,50]
+    ]);
+    console.log("Map1::");
+    console.log(map1)
+</script> -->
+
+<!--Example 2 This example adds elements to the map using set() method-->
+
+<!-- <script>
+    let map1=new Map();
+    map1.set("FirstName","mohamed")
+    map1.set("LastName","azar")
+    map1.set("website","azartechnet")
+    console.log(map1)
+</script> -->
+
+<!--Example 3-->
+<script>
+let map1=new Map();
+map1.set("firstName","azar");
+map1.set("lastName","mohamed");
+map1.set("website","azartechnet");
+map1.set("frd1","azar1");
+map1.set("frd2","azar2")
+console.log(map1);
+console.log("map1 has website>>>"+map1.has("website"))
+console.log("map1 has frd>>>"+map1.has("frd4"))
+//delete a key value pair from the map
+console.log("Before deletion: "+map1.delete('frd1'))
+map1.delete("website");
+console.log(map1)
+map1.clear()
+console.log(map1)
+
+</script>

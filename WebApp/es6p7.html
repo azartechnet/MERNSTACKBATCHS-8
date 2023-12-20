@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        Your Name is::<p id="d1"></p>
+        Your age is::<p id="d2"></p>
+        <script>
+            class Sample
+            {
+                constructor(name,year)
+                {
+                    this.name=name;
+                    this.year=year;
+                }
+            }
+            const my1=new Sample("azar",1989)
+            const my2=new Sample("mohamed",2013)
+
+            document.getElementById("d1").innerHTML=my1.name+""+my2.name
+            document.getElementById("d2").innerHTML=my1.year+""+my2.year
+        </script>
+    </body>
+</html>

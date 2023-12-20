@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+            const myPromise=new Promise(function(myResolve,myReject){
+                setTimeout(()=>{
+                    if(true) {
+                        let data={name:"John",age:30};
+                        myResolve(data);
+                        } else {
+                            myReject("Error");
+                            }
+                            },2000);
+                        });
+        </script>
+    </body>
+</html>
